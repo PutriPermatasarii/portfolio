@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artikel Sederhana</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset default margin dan padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body dan font umum */
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    /* Kontainer utama */
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* Artikel utama */
+    .article {
+      flex: 3;
+      background-color: #fff;
+      padding: 20px;
+      margin-right: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .article h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .article p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .article img {
+      width: 100%;
+      height: 600px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      object-fit: cover;
+    }
+
+    /* Sidebar (optional) */
+    .sidebar {
+      flex: 1;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar h3 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 10px;
+    }
+
+    .sidebar ul li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 1rem;
+    }
+
+    .sidebar ul li a:hover {
+      color: #3498db;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+
+    /* Responsiveness */
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .article {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+
+      .sidebar {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Artikel</h1>
+  </header>
+
+  <!-- Kontainer untuk artikel dan sidebar -->
+  <div class="container">
+    <!-- Artikel -->
+    <div class="article">
+        <h2>Kenakalan Remaja bullying</h2>
+        <img src="proj-1.jpg" alt="Gambar Artikel">
+        <h3>Definisi</h3>
+        <p>
+            Bully adalah tindakan agresif yang dilakukan secara sengaja oleh seseorang atau kelompok untuk  menyakiti, mengintimidasi, atau merendahkan orang lain, baik secara fisik, verbal, emosional, maupun sosial. Biasanya, tindakan ini terjadi berulang kali, dengan pelaku memanfaatkan ketidakseimbangan kekuatan atau kekuasaan, seperti fisik, status sosial, atau pengaruh, untuk mendominasi korban. Contohnya termasuk mengejek, menyebarkan rumor, mengucilkan, atau bahkan melakukan kekerasan fisik.
+        </p>
+
+        <h3>Dampak / Akibat</h3>
+        <span>
+            Temuan ini menunjukkan bahwa perilaku bully menyebabkan bebreapa dampak buruk bagi korban, seperti:
+        </span>
+        <ol style="margin-left: 16px;">
+            <li>Menurunnya rasa percaya diri</li>
+            <li>Kesulitan dalam membangun hubungan sosial</li>
+            <li>Penurunan kemampuan berkomunikasi atau kepercayaan kepada orang lain</li>
+            <li>Keengganan untuk pergi kesekolah atau putus sekolah</li>
+        </ol>
+        <br>
+
+        <h3>Tindakan Pencegahan</h3>
+        <ol style="margin-left: 16px;">
+            <li>Sosialisasi program pencegahan pembullyan</li>
+            <li>Berani menghentikan dan melawan pembullyan</li>
+            <li>Membantu pelaku untuk menghentikan perilaku buruknya</li>
+            <li>Memberikan dukungan pada korban</li>
+            <li>Membuat peraturan yang tegas untuk perilaku bullying</li>
+        </ol>
+        <br>
+    </div>
+
+</body>
+</html>

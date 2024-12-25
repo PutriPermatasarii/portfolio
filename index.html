@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Sederhana</title>
+  <!-- Link ke file CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Beranda</a></li>
+      <li><a href="#about">Tentang Saya</a></li>
+      <li><a href="#projects">Artikel</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <div class="container">
+      <h1>Putri Permatasari</h1>
+      <p>Saya seorang Web Developer yang bersemangat untuk belajar dan berkembang.</p>
+      <button onclick="scrollToSection('contact')" style="margin-top: 16px;">Hubungi Saya</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <div class="about-card">
+        <img src="user.jpeg" style="margin-right: 16px;">
+        <p style="margin-left: 16px;">Halo, Nama saya <strong>Putri Permatasari</strong>. Saya adalah seorang Web Developer. Keahlian utama saya mencakup HTML, CSS, JavaScript, serta memiliki pemahaman yang baik mengenai pengoptimalan performa web. Saya selalu bersemangat untuk belajar teknologi terbaru dan menghadapi tantangan baru dalam setiap proyek yang saya kerjakan. Saya percaya bahwa web development adalah gabungan dari kreativitas dan logika, dan saya selalu mencari cara untuk mengimplementasikan solusi yang inovatif untuk setiap masalah yang saya temui.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Artikel Terbaru</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <a href="project.html">
+            <img src="proj-1.jpg" alt="Project 1">
+          </a>
+          <h3>Kenakalan Remaja bullying</h3>
+          <p>Kenakalan Remaja bullying</p>
+        </div>
+        <div class="project-card">
+          <img src="cooming-soon.jpg" alt="Project 2">
+          <h3>Cooming Soon</h3>
+          <p>Cooming Soon ...</p>
+        </div>
+        <div class="project-card">
+          <img src="cooming-soon.jpg" alt="Project 3">
+          <h3>Cooming Soon</h3>
+          <p>Cooming Soon ...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Kontak</h2>
+      <p>Jika Anda tertarik bekerja sama atau memiliki pertanyaan, silakan hubungi saya.</p>
+      <a href="mailto:putripermata0234@gmail.com">Email Saya</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Portfolio Putri Permatasari.</p>
+  </footer>
+
+  <!-- Link ke file JS -->
+  <script src="script.js"></script>
+</body>
+</html>
